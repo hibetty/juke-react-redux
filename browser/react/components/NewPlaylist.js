@@ -6,7 +6,7 @@ export default function NewPlaylist (props) {
   const handleSubmit = props.handleSubmit;
   const warning = props.warning;
   const inputValue = props.inputValue;
-
+console.log("******",props)
   return (
     <div className="well" style={{marginTop: '20px'}}>
       <form className="form-horizontal" onSubmit={handleSubmit}>
